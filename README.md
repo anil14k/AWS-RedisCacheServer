@@ -3,6 +3,9 @@ For Lambda finctions to use the elastic cache make sure you have role access to 
 Else it wont get access to your cache cluster. 
 While launching EC2 Instance this should also present in same VPC,Security group and have access Inbound, Outbound access to the Cache Cluster.
 Else it wont connect to the ElastiCache Cluster.
+Make sure you open port 6379 ---> for ElastiCache
+22 ---> For SSh to EC2 Instance
+
 
 ================================================================
 
